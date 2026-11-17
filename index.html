@@ -284,6 +284,17 @@
   }
   .store-facts{display:flex; gap:10px 28px; flex-wrap:wrap; margin-top:24px; color:var(--on-dark-muted); font-size:.9rem}
   .store-facts b{color:var(--on-dark)}
+  /* Inside MGN store, Nov 17: real packs, box art, buy buttons to Payhip */
+  .pack.real{border:1px solid #2e3a46; background:var(--dark-2); padding:0; overflow:hidden; gap:0}
+  .pack.real .art{aspect-ratio:1/1; max-width:100%; background:#0b1015; display:flex; align-items:center; justify-content:center}
+  .pack.real .art img{width:100%; height:100%; object-fit:cover; display:block}
+  .pack.real .art .soon{font-family:"Oswald",sans-serif; font-size:1.4rem; letter-spacing:.08em; color:#5a6a78; text-align:center; padding:20px}
+  .pack.real .body{padding:18px 20px 20px; display:flex; flex-direction:column; gap:9px; flex:1}
+  .pack.real .count{font-family:"IBM Plex Mono",monospace; font-size:.8rem; color:var(--gold)}
+  .pack.real .price{color:#9fb0bd}
+  a.buy{display:inline-block; text-decoration:none; background:var(--accent); color:#fff; border-color:var(--accent); cursor:pointer}
+  a.buy:hover,a.buy:focus-visible{filter:brightness(1.1)}
+  .store-cta{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:26px}
 
   /* Roadmap */
   .roadmap{list-style:none; margin:0; padding:0; display:grid; gap:0}
@@ -437,7 +448,7 @@
       <p class="lede">Houston-born, Army veteran, and a competitor who likes to lead when it's needed. Leading with the strongest work first: Madden broadcast graphics - score bugs, overlays, and full broadcast packages - then the original game projects and the template packs other creators build on.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#project-madden">See the Madden Broadcast Work</a>
-        <a class="btn btn-ghost" href="#store" data-home-link>Template Store - Coming Soon</a>
+        <a class="btn btn-ghost" href="#store" data-home-link>Template Store</a>
       </div>
       <div class="hero-meta">
         <div><strong>Houston, TX</strong><span>Born and raised</span></div>
@@ -618,44 +629,82 @@
   </div>
 </section>
 
-<!-- Store placeholder -->
+<!-- Inside MGN Template Store (Nov 17): six packs, buy buttons hand off to Payhip -->
 <div class="store-band" id="store">
   <div class="wrap">
     <div class="sec-head">
       <span class="mono">04</span>
       <h2>Template Store</h2>
-      <p>A second page on your own site - the Inside MGN model, under your brand.</p>
+      <p>Inside MGN broadcast templates for your game coverage. Drag and drop, no design skills needed.</p>
     </div>
 
     <div class="store-note">
-      <p><strong>Placeholder - parked on purpose.</strong> The page structure is ready. It goes live once the template files and preview images are uploaded. Your Squarespace Basic plan already supports digital downloads, so no upgrade is needed.</p>
+      <p><strong>Opening soon.</strong> Six packs, 89 layered Photoshop templates. Checkout and instant downloads run through the Inside MGN store on Payhip.</p>
     </div>
 
     <div class="store-grid">
-      <div class="pack">
-        <span class="mono">Pack Slot 01</span>
-        <h3>Broadcast Template Pack</h3>
-        <p>Your lead pack drops in here - preview image, what's inside, and the Photoshop file buyers download.</p>
-        <div class="price-row"><span class="price">$ - set at upload</span><button class="buy" type="button" disabled>Coming Soon</button></div>
+      <div class="pack real">
+        <div class="art"><img src="store-p1.jpg" alt="Broadcast Pack: Score Bugs and Analysis box art" loading="lazy" width="960" height="960"></div>
+        <div class="body">
+          <span class="count">10 templates · layered PSD</span>
+          <h3>Broadcast Pack: Score Bugs and Analysis</h3>
+          <p>A pro broadcast look for your game coverage: five score lower thirds, a game predictions board, a player comparison, a player or team center piece, a reasons for the lead breakdown and a player by player promo.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
       </div>
-      <div class="pack">
-        <span class="mono">Pack Slot 02</span>
-        <h3>Template Pack</h3>
-        <p>Second pack slot. Name, preview, and file get filled in when you pick which pack goes here.</p>
-        <div class="price-row"><span class="price">$ - set at upload</span><button class="buy" type="button" disabled>Coming Soon</button></div>
+      <div class="pack real">
+        <div class="art"><img src="store-p2.jpg" alt="Broadcast Pack: Halftime and Lower Thirds box art" loading="lazy" width="960" height="960"></div>
+        <div class="body">
+          <span class="count">8 templates · layered PSD</span>
+          <h3>Broadcast Pack: Halftime and Lower Thirds</h3>
+          <p>A halftime and lower third set for your show: a halftime center piece, a halftime final score, a head to head center piece, scoreboard and stadium lower thirds, two player lower thirds and a 32 team power rankings board.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
       </div>
-      <div class="pack">
-        <span class="mono">Pack Slot 03</span>
-        <h3>Template Pack</h3>
-        <p>Third pack slot - the grid grows as more of the Inside MGN catalog comes back online.</p>
-        <div class="price-row"><span class="price">$ - set at upload</span><button class="buy" type="button" disabled>Coming Soon</button></div>
+      <div class="pack real">
+        <div class="art"><img src="store-p3.jpg" alt="Prime Time Pack box art" loading="lazy" width="960" height="960"></div>
+        <div class="body">
+          <span class="count">14 templates · layered PSD</span>
+          <h3>Prime Time Pack</h3>
+          <p>A prime time show look: scoreboard, ticker and playoff standings, a team preview, player info and coaching news, a head to head center piece, stat cards, player lower thirds, spotlights and a YouTube thumbnail template.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
+      </div>
+      <div class="pack real">
+        <div class="art"><span class="soon">Box art<br>coming soon</span></div>
+        <div class="body">
+          <span class="count">13 templates + 2 logos · layered PSD</span>
+          <h3>Power Rankings Pack</h3>
+          <p>Rank everything: a full 1 to 32 rankings list, a Top 10 center piece, rankings and Top 5 lower thirds, seven player info cards, a team info card and a Top 10 team holder.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
+      </div>
+      <div class="pack real">
+        <div class="art"><span class="soon">Box art<br>coming soon</span></div>
+        <div class="body">
+          <span class="count">11 templates · layered PSD</span>
+          <h3>Gameday Show Pack</h3>
+          <p>Build a weekly show: game of the week, game highlights, breaking news, a Top 10 teams board, GM of the season, open teams, thumbnails for your show, a playback card and a next episode card.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
+      </div>
+      <div class="pack real">
+        <div class="art"><span class="soon">Box art<br>coming soon</span></div>
+        <div class="body">
+          <span class="count">31 templates · layered PSD</span>
+          <h3>League Essentials Pack</h3>
+          <p>Everything a league show needs: eight lower thirds, eight center pieces, three full screens, three side panels and more, from free agent signings to division standings, playoff pictures, a pick em board and a weekly schedule.</p>
+          <div class="price-row"><span class="price">Price coming soon</span><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">View in store</a></div>
+        </div>
       </div>
     </div>
 
+    <div class="store-cta"><a class="buy" href="https://payhip.com/insidemgn" target="_blank" rel="noopener">Open the Inside MGN store</a></div>
+
     <div class="store-facts">
-      <span><b>Platform:</b> Squarespace - your existing site</span>
-      <span><b>Sells:</b> Digital downloads (Photoshop templates)</span>
-      <span><b>Demand:</b> Buyers still message on Discord asking for these</span>
+      <span><b>You get:</b> Layered Photoshop files and a how-to guide, downloaded right after checkout</span>
+      <span><b>You need:</b> Adobe Photoshop. Fonts are listed, not included. Add your own logos and names</span>
+      <span><b>Not included:</b> Team logos, player photos and network marks</span>
     </div>
   </div>
 </div>
@@ -727,7 +776,7 @@
     </div>
     <div class="contact-links">
       <a href="https://timothyjrose.com" target="_blank" rel="noopener">timothyjrose.com - live site</a>
-      <a href="#store" data-home-link>Template store - placeholder page</a>
+      <a href="#store" data-home-link>Visit the template store</a>
       <a href="#next" data-home-link>See what's next</a>
     </div>
   </div>
