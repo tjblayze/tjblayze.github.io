@@ -828,11 +828,11 @@
   var STORE = 'https://payhip.com/insidemgn';
   var LIMIT = 4, used = 0, history = [];   // Timothy, Nov 17: about 4 answers, then send them to email
   var BOT_URL = '';   // the AI answerer (Claude Haiku, the cheapest model) goes here once it is hosted; empty = answers below
-  var SUPPORT = 'support@timothyjrose.com';   // forwarded to Timothy (set up Nov 17)
+  var SUPPORT = 'support@timothyjrose.com';   // store support address
   var EMAIL_NOTE = 'The fastest way to get the rest sorted is to email us at <a href="mailto:'+SUPPORT+'?subject=Inside%20MGN%20help">'+SUPPORT+'</a>. Include your order email, and a person gets back to you.';
   var A = [
     {k:['download','link','email','receive','get my','where is','didn\'t get','didnt get','not get'], q:'Where is my download?',
-     a:'Right after checkout, Payhip shows a download button and emails you a download link. Check your spam folder for an email from Payhip.'},
+     a:'Right after checkout, Payhip shows a download button and emails you a download link. Search your inbox and spam folder for an email from Payhip. Still missing? Tap "Talk to a person" with the email you used at checkout.'},
     {k:['open','won\'t open','wont open','error','corrupt','broken','zip','unzip','extract'], q:'My file will not open',
      a:'Unzip the download first (right-click, Extract All on Windows, or double-click on a Mac), then open the .psd file in Adobe Photoshop. If it still will not open, it may be a broken file. Tap "Talk to a person" and we will send a fresh copy.'},
     {k:['photoshop','software','canva','photopea','gimp','program','app','need'], q:'What do I need?',
@@ -840,9 +840,9 @@
     {k:['font','fonts','typeface'], q:'Are fonts included?',
      a:'Fonts are not included. Each download lists the fonts used, so you can install them yourself. Some are commercial fonts sold by their makers. If you do not have one, Photoshop shows a stand-in font until you install it or pick your own font in the text layer.'},
     {k:['logo','logos','player photo','photos','team'], q:'Are logos included?',
-     a:'No. Team logos, player photos and network marks are not included. You drop in your own.'},
+     a:'No. Team logos, player photos and network marks are not included. You drop in your own. Inside MGN is not affiliated with any league, network, team or game publisher.'},
     {k:['refund','money back','return','charged twice','double'], q:'Can I get a refund?',
-     a:'Digital files cannot be returned once downloaded. You get a full refund for a double charge, a broken file, or a mistake you tell us about before you download. Tap "Talk to a person" for any of those.'},
+     a:'Digital files cannot be returned once downloaded. We refund in full for a double charge, a broken file we cannot fix, a pack missing something its listing promised, or a mistaken order you tell us about before you download. A person looks at every refund request, so tap "Talk to a person" and include your order email.'},
     {k:['license','commercial','youtube','stream','monetize','resell','sell','share'], q:'Can I use these on YouTube?',
      a:'Yes. You can use them in your own videos and streams, including monetized ones. You cannot resell or share the template files themselves.'},
     {k:['which','pack','bundle','single','individual','one template','difference'], q:'Pack or single template?',
