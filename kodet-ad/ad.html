@@ -1,0 +1,154 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1920px;overflow:hidden;background:#F7F5EF;font-family:Inter,'DejaVu Sans',sans-serif;color:#15171C}
+.sc{position:absolute;inset:0;opacity:0}
+.abs{position:absolute}
+.h{font-weight:800;letter-spacing:-2px;line-height:1.02}
+.c{left:0;right:0;text-align:center}
+.card{position:absolute;left:60px;width:960px;background:#fff;border-radius:36px;box-shadow:0 18px 50px rgba(20,20,40,.12);padding:40px 44px;display:flex;gap:34px;align-items:center}
+.num{flex:0 0 96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:52px;color:#fff}
+.ct{font-size:54px;font-weight:800;letter-spacing:-1px}
+.cs{font-size:34px;color:#555b66;margin-top:10px;line-height:1.25}
+.tile{position:absolute;width:450px;height:250px;background:#fff;border-radius:30px;box-shadow:0 12px 36px rgba(0,0,0,.08);padding:34px}
+.tl{font-size:30px;color:#6b7280;font-weight:600}
+.tv{font-size:86px;font-weight:800;letter-spacing:-2px;margin-top:14px}
+.bar{position:absolute;left:70px;width:940px}
+.bl{font-size:34px;font-weight:700;display:flex;justify-content:space-between;margin-bottom:12px}
+.bt{height:46px;background:#E6E3DA;border-radius:23px;overflow:hidden}
+.bf{height:100%;border-radius:23px;width:0}
+.gold{color:#B9831A}
+</style></head><body>
+
+<!-- S1 -->
+<div class="sc" id="s1">
+ <div class="abs c h" style="top:190px;font-size:84px">My Short lost</div>
+ <div class="abs c h" style="top:300px;font-size:106px;color:#E5393B">61% of viewers</div>
+ <div class="abs c" style="top:440px;font-size:44px;color:#555b66;font-weight:600">in the first few seconds.</div>
+ <svg class="abs" style="left:90px;top:640px" width="900" height="760" viewBox="0 0 900 760">
+  <rect x="0" y="0" width="900" height="760" rx="36" fill="#fff"/>
+  <line x1="80" y1="660" x2="860" y2="660" stroke="#D9D5CA" stroke-width="4"/>
+  <line x1="80" y1="80" x2="80" y2="660" stroke="#D9D5CA" stroke-width="4"/>
+  <text x="80" y="710" font-size="28" fill="#888">0:00</text><text x="790" y="710" font-size="28" fill="#888">0:53</text>
+  <text x="96" y="70" font-size="28" fill="#888">viewers still watching</text>
+  <path id="gp" d="M80 100 C 130 110, 160 380, 210 430 S 320 470, 420 500 S 650 560, 860 600" fill="none" stroke="#E5393B" stroke-width="12" stroke-linecap="round"/>
+ </svg>
+ <div class="abs" id="stamp" style="left:190px;top:900px;width:700px;padding:26px 0;text-align:center;border:12px solid #E5393B;color:#E5393B;border-radius:24px;font-size:84px;font-weight:900;letter-spacing:2px;background:rgba(255,255,255,.92)">61% SWIPED AWAY</div>
+ <div class="abs c" style="top:1560px;font-size:40px;color:#888;font-weight:600">Chiefs vs Bills · 0:53 Short</div>
+</div>
+
+<!-- S2 -->
+<div class="sc" id="s2">
+ <div class="abs c h" style="top:200px;font-size:76px">The numbers show <span style="color:#3B6FE5">what</span><br>happened.</div>
+ <div id="tiles">
+  <div class="tile t" style="left:60px;top:520px"><div class="tl">Stayed to watch</div><div class="tv">39.1%</div></div>
+  <div class="tile t" style="left:570px;top:520px"><div class="tl">Swiped away</div><div class="tv" style="color:#E5393B">60.9%</div></div>
+  <div class="tile t" style="left:60px;top:810px"><div class="tl">Avg view duration</div><div class="tv">0:19</div></div>
+  <div class="tile t" style="left:570px;top:810px"><div class="tl">Length</div><div class="tv">0:53</div></div>
+  <div class="tile t" style="left:60px;top:1100px"><div class="tl">From Shorts feed</div><div class="tv">85%</div></div>
+  <div class="tile t" style="left:570px;top:1100px"><div class="tl">From search</div><div class="tv">4%</div></div>
+ </div>
+ <div class="abs c h" id="notwhy" style="top:1440px;font-size:190px;color:#E5393B">Not why.</div>
+</div>
+
+<!-- S3 -->
+<div class="sc" id="s3">
+ <div class="abs c" id="asked" style="top:250px;font-size:70px;font-weight:700;color:#555b66">So I asked</div>
+ <div class="abs c" id="logo" style="top:360px">
+  <div style="display:inline-flex;align-items:center;gap:30px">
+   <div style="width:190px;height:190px;border-radius:50%;background:#B9831A;color:#fff;font-size:130px;font-weight:900;display:flex;align-items:center;justify-content:center">K</div>
+   <div class="h" style="font-size:210px">Kodet</div>
+  </div>
+ </div>
+ <div class="abs" id="phone" style="left:190px;top:800px;width:700px;height:1300px;background:#15171C;border-radius:80px;padding:28px">
+  <div style="background:#F7F5EF;border-radius:56px;height:100%;padding:70px 50px">
+   <div style="font-size:44px;font-weight:800">Kodet <span class="gold">Insights</span></div>
+   <div style="font-size:32px;color:#6b7280;margin-top:40px">Analyzing</div>
+   <div style="font-size:48px;font-weight:800;margin-top:8px">Chiefs vs Bills</div>
+   <div style="height:22px;background:#E6E3DA;border-radius:11px;margin-top:40px;overflow:hidden"><div id="prog" style="height:100%;width:0;background:#B9831A"></div></div>
+   <div id="cmp" style="font-size:30px;color:#6b7280;margin-top:24px">Comparing with your best Shorts…</div>
+  </div>
+ </div>
+</div>
+
+<!-- S4 -->
+<div class="sc" id="s4">
+ <div class="abs c h" style="top:170px;font-size:84px">Kodet found <span class="gold">why</span>:</div>
+ <div class="card f" style="top:380px"><div class="num" style="background:#E5393B">1</div><div><div class="ct">Opens dark</div><div class="cs">Fades in from black with a logo flash. Reads like an ad, so people swipe.</div></div></div>
+ <div class="card f" style="top:680px"><div class="num" style="background:#E5393B">2</div><div><div class="ct">No football until 0:17</div><div class="cs">The payoff shows up too late for a Short.</div></div></div>
+ <div class="card f" style="top:980px"><div class="num" style="background:#E5393B">3</div><div><div class="ct">Ends on black</div><div class="cs">A black end card stops people rewatching.</div></div></div>
+ <div class="abs" id="bubble" style="left:60px;top:1350px;width:960px;background:#15171C;color:#fff;border-radius:40px;padding:44px">
+  <div style="display:flex;align-items:center;gap:20px;font-size:32px;color:#E8C46A;font-weight:700"><span>● Kodet</span><span id="wave" style="display:flex;gap:8px;align-items:center"></span></div>
+  <div style="font-size:46px;font-weight:600;margin-top:20px;line-height:1.25">“Open on the payoff at full brightness. Your best Shorts do.”</div>
+ </div>
+</div>
+
+<!-- S5 -->
+<div class="sc" id="s5">
+ <div class="abs c h" style="top:180px;font-size:80px">Compared to <span class="gold">my</span> best Shorts.</div>
+ <div class="abs c" style="top:380px;font-size:46px;color:#555b66;font-weight:600">Not someone else's channel.</div>
+ <div class="abs c" style="top:500px;font-size:34px;color:#888;font-weight:700;letter-spacing:3px">STAYED TO WATCH</div>
+ <div class="bar" style="top:600px"><div class="bl"><span>This Short</span><span class="v" data-v="39">39%</span></div><div class="bt"><div class="bf" data-v="39" style="background:#E5393B"></div></div></div>
+ <div class="bar" style="top:800px"><div class="bl"><span>Madden 26 + SNF</span><span>63%</span></div><div class="bt"><div class="bf" data-v="63" style="background:#9AA3B2"></div></div></div>
+ <div class="bar" style="top:1000px"><div class="bl"><span>It's SNF on Madden 26</span><span>66%</span></div><div class="bt"><div class="bf" data-v="66" style="background:#9AA3B2"></div></div></div>
+ <div class="bar" style="top:1200px"><div class="bl"><span>The Truth about Madden 26</span><span>74%</span></div><div class="bt"><div class="bf" data-v="74" style="background:#9AA3B2"></div></div></div>
+ <div class="bar" style="top:1400px"><div class="bl"><span>Madden 26 Score Bugs</span><span style="color:#1FA968">84%</span></div><div class="bt"><div class="bf" data-v="84" style="background:#1FA968"></div></div></div>
+ <div class="abs c" id="s5c" style="top:1620px;font-size:46px;font-weight:700">Same channel. Same audience.<br><span class="gold">Kodet shows what's different.</span></div>
+</div>
+
+<!-- S6 -->
+<div class="sc" id="s6">
+ <div class="abs c h" style="top:220px;font-size:96px">Then it gets<br>to work.</div>
+ <div class="card w" style="top:560px"><div class="num" style="background:#3B6FE5">1</div><div><div class="ct">Plans your next post</div><div class="cs">Title, timing and campaign plan.</div></div></div>
+ <div class="card w" style="top:860px"><div class="num" style="background:#3B6FE5">2</div><div><div class="ct">Drafts your replies</div><div class="cs">A reply bank for your comments.</div></div></div>
+ <div class="card w" style="top:1160px"><div class="num" style="background:#1FA968">✓</div><div><div class="ct">You approve everything</div><div class="cs">Nothing posts until you say so.</div></div></div>
+</div>
+
+<!-- S7 -->
+<div class="sc" id="s7">
+ <div class="abs c" style="top:200px"><div id="pill" style="display:inline-block;background:#1FA968;color:#fff;font-size:40px;font-weight:700;padding:26px 50px;border-radius:60px">● Call with Kodet · tap to return</div></div>
+ <div class="abs c h" id="l1" style="top:560px;font-size:84px">YouTube tells you<br>what happened.</div>
+ <div class="abs c h" id="l2" style="top:820px;font-size:120px;color:#B9831A">Kodet tells<br>you why.</div>
+ <div class="abs c" id="cta" style="top:1280px"><div style="display:inline-block;background:#15171C;color:#fff;border-radius:44px;padding:50px 80px">
+  <div style="font-size:52px;font-weight:600">Comment</div>
+  <div class="h" style="font-size:150px;color:#E8C46A;letter-spacing:4px">KODET</div>
+  <div style="font-size:46px;font-weight:600">for early access</div></div></div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const cl=x=>Math.max(0,Math.min(1,x));
+const p=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+const bo=x=>{const c=1.7;x=x-1;return 1+(c+1)*x*x*x+c*x*x};
+const scenes=[["s1",0,2.4],["s2",2.4,5.3],["s3",5.3,8.1],["s4",8.1,16],["s5",16,20.2],["s6",20.2,25],["s7",25,30.1]];
+const wave=$("#wave");for(let i=0;i<14;i++){const b=document.createElement("i");b.style.cssText="display:block;width:8px;background:#E8C46A;border-radius:4px";wave.appendChild(b)}
+const gp=$("#gp"),gl=gp.getTotalLength();gp.style.strokeDasharray=gl;
+function pop(el,t,a,d=.35,dy=60){const x=p(t,a,a+d);el.style.opacity=cl(x*2);el.style.transform=`translateY(${(1-eo(x))*dy}px) scale(${.85+.15*bo(x)})`}
+window.render=function(t){
+ for(const [id,a,b] of scenes){const el=$("#"+id);const fi=a===0?1:p(t,a,a+.18),fo=1-p(t,b-.18,b);el.style.opacity=Math.min(fi,fo)}
+ // S1
+ gp.style.strokeDashoffset=gl*(1-eo(p(t,0,1.1)));
+ {const x=p(t,.75,1.05),s=$("#stamp");s.style.opacity=x>0?1:0;s.style.transform=`rotate(-8deg) scale(${2.2-1.2*eo(x)})`}
+ // S2
+ $$(".t").forEach((e,i)=>pop(e,t,2.5+i*.16));
+ {const b=p(t,3.9,4.3);$("#tiles").style.filter=`blur(${b*12}px)`;$("#tiles").style.opacity=1-b*.6;
+  const n=$("#notwhy"),x=p(t,4.0,4.35);n.style.opacity=x>0?1:0;n.style.transform=`scale(${1.6-.6*eo(x)})`}
+ // S3
+ pop($("#asked"),t,5.35);pop($("#logo"),t,5.7,.45,0);
+ {const x=eo(p(t,6.2,6.8));$("#phone").style.transform=`translateY(${(1-x)*900}px)`}
+ $("#prog").style.width=(eo(p(t,6.8,7.9))*100)+"%";
+ // S4
+ $$(".f").forEach((e,i)=>pop(e,t,8.4+i*1.9,.4,120));
+ pop($("#bubble"),t,14.0,.35,80);
+ [...wave.children].forEach((b,i)=>{b.style.height=(10+28*Math.abs(Math.sin(t*9+i*.9)))+"px"});
+ // S5
+ $$(".bf").forEach((e,i)=>{e.style.width=(eo(p(t,16.4+i*.32,17.2+i*.32))*e.dataset.v)+"%"});
+ pop($("#s5c"),t,18.4);
+ // S6
+ $$(".w").forEach((e,i)=>pop(e,t,20.6+i*1.2,.4,120));
+ // S7
+ {const pl=$("#pill");pop(pl,t,25.1);pl.style.boxShadow=`0 0 0 ${12+10*Math.sin(t*5)}px rgba(31,169,104,.18)`}
+ pop($("#l1"),t,25.4);pop($("#l2"),t,26.2,.45);pop($("#cta"),t,27.2,.45);
+};
+render(0);
+</script></body></html>
